@@ -1,0 +1,11 @@
+{
+    "name": "tailwind-flask",
+    "version": "1.0.0",
+    "scripts": {
+        "build-css": "tailwindcss -i ./app/static/estilos.css -o ./app/static/output.css --verbose"
+    },
+    "devDependencies": {
+      "tailwindcss": "^3.4.1"
+    }
+  }
+  
